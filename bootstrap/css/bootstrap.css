@@ -1387,6 +1387,7 @@ pre code {
   margin-left: auto;
   padding-left: 15px;
   padding-right: 15px;
+
 }
 @media (min-width: 768px) {
   .container {
@@ -6328,7 +6329,8 @@ button.close {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;}
+  background-size: cover;
+  }
 .ic-size{
   width: 100px;
 
@@ -6340,10 +6342,7 @@ button.close {
   padding-right:20px;
 
 }
-.row img{
 
-  max-width: 100%;
-}
  .logo{
  width: 60%}
  .opa{
@@ -6356,4 +6355,15 @@ button.close {
 
 .ove{
   overflow: hidden;
+}
+.col-lg-4 img{
+  max-width: 30%;
+}
+.col-xs-4, .col-sm-4, .col-md-4  img{
+  max-width: 100%;
+}
+.attheb{
+  bottom: 0;
+  position: absolute;
+  width: 100%;
 }
